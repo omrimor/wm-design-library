@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Modules
+   ========================================================================== */
+
+h1 {
+    color: $black;
+}
+
+/**
+ * Extend button expamle
+ */
+
+%btn-base {
+}
+
+.btn {
+    @extend %btn-base;
+}
+
+.btn__submit-form {
+    @extend %btn-base;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
